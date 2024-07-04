@@ -1,6 +1,6 @@
 <p align="center"><img width="160" height="160" src="https://raw.githubusercontent.com/SockTrader/SockTrader/master/docs/assets/socktrader_logo.png" alt="SockTrader logo" /></p>
 
-<h1 align="center">SockTrader v2</h1>
+<h1 align="center">Trading Bot</h1>
 <p align="center"><b>Cryptocurrency trading bot</b></p>
 
 <p align="center">
@@ -31,7 +31,6 @@ Use [SockTrader v1](https://github.com/SockTrader/SockTrader/tree/socktrader-v1)
 ## Features
 
 - 🚀 Realtime super-fast websocket trading.
-- 📈 50+ Technical indicators. ([docs](https://github.com/anandanand84/technicalindicators))
 - 🌈 Written in TypeScript!
 - 🌿 Unit tested source code.
 - 📝 Paper trading a strategy on LIVE exchange data.
@@ -43,7 +42,7 @@ Use [SockTrader v1](https://github.com/SockTrader/SockTrader/tree/socktrader-v1)
 
 # Quickstart
 
-1. Git clone `git clone git@github.com:SockTrader/SockTrader.git && cd SockTrader`
+1. Git clone 
 2. Install NodeJS dependencies. `npm i`
 3. Copy `config/default.json` to `config/local.json` and edit.
 4. Start postgres database `docker-compose up`
@@ -67,18 +66,3 @@ To get started:
 1. Go to your Binance account
 2. Under API restrictions enable 'Enable Spot & Margin Trading'
 
-## Join the community
-
-<a href="https://join.slack.com/t/socktrader/shared_invite/zt-12ncj65l3-T7cacrk7~cEacjZUyxnamA"><img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack" alt="Slack"></a>
-
-## Contributors
-
-<a href="https://github.com/SockTrader/SockTrader/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=SockTrader/SockTrader" />
-</a>
-
-## DISCLAIMER
-
-    Using a trading bot does not mean guaranteed profit.
-    Also, trading crypto currency is considered high risk.
-    Losses are possible, which SockTrader cannot be held responsible for.
